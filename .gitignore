@@ -1,0 +1,5 @@
+build/
+datafiles/
+miscellaneous/
+__pycache__/
+simDER

@@ -1,0 +1,23 @@
+RodLength 0.20
+rodRadius 50e-6
+youngM 0.26e9
+Poisson 0.5
+deltaTime 1e-2
+totalTime 300
+tol 1.0e-5
+stol 1.0e-5
+maxIter 100
+density 1300
+gVector 0.0 0.0 -0.0
+viscosity 0.1
+numVertices 201
+render 1
+saveData 1
+data-period 0.1e-1
+insertion-time 20.0
+wait-time 1.0
+total-rods 10
+boundary-iter 10
+external-flow 1.0e-4
+flow-period 2.0
+radiusofSphere 0.063
