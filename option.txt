@@ -1,5 +1,5 @@
 RodLength 0.20
-rodRadius 50e-6
+rodRadius 35e-6
 youngM 0.26e9
 Poisson 0.5
 deltaTime 1e-2

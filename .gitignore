@@ -3,3 +3,5 @@ datafiles/
 miscellaneous/
 __pycache__/
 simDER
+.vscode/
+
