@@ -1,9 +1,6 @@
 ## Fiber Bundling Simulation
 
-Entanglement of Elastic Rods Under Low Reynolds Number, Resembling
-Gastric Trichobezoar
-
-The numerical framework for simulating the entanglement of elastic rods in the viscous fluid (under low Reynolds number) for resembling gastric trichobezoar. Uses [Discrete Elastic Rod (DER)](http://www.cs.columbia.edu/cg/pdfs/143-rods.pdf) framework and incorporates contact from [this article](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1467-8659.2008.01147.x)
+The numerical framework for simulating the entanglement of elastic rods in the viscous fluid (under low Reynolds number) for resembling gastric trichobezoar. Rods are injected one by one with a constant injection speed into a tank (assumed to be a sphere) filled with viscous fluid. Uses [Discrete Elastic Rod (DER)](http://www.cs.columbia.edu/cg/pdfs/143-rods.pdf) framework and incorporates contact from [this article](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1467-8659.2008.01147.x)
 
 <p align="center">
 <img src="Figures/examples.png" alt>
@@ -50,7 +47,7 @@ make -j4
 All simulation parameters are set through a parameter file ```option.txt```. A template ```option.txt``` file is provided.
 
 Specifiable parameters are as follows (we use SI units):
-- ```RodLength``` - Contour length of the rod.
+- ```RodLength``` - Contour ength of the rod.
 - ```rodRadius``` - Cross-sectional radius of the rod.
 - ```youngM``` - Young's modulus.
 - ```Poisson``` - Poisson ratio.
@@ -68,8 +65,7 @@ Specifiable parameters are as follows (we use SI units):
 - ```insertion-time``` - The time it takes to insert one rod into the fluid.
 - ```wait-time``` - The time it waits before inserting the next rod once the current rod is fully inserted.
 - ```total-rods``` - The total number of rods that will be inserted into the tank.
-- ```boundary-iter``` -
-- ```radiusofSphere```
+- ```radiusofSphere``` - The radius of the container (assumed as a sphere).
 
 ***
 ### Running the Simulation
