@@ -69,8 +69,6 @@ Specifiable parameters are as follows (we use SI units):
 - ```wait-time``` - The time it waits before inserting the next rod once the current rod is fully inserted.
 - ```total-rods``` - The total number of rods that will be inserted into the tank.
 - ```boundary-iter``` -
-- ```external-flow```
-- ```flow-period```
 - ```radiusofSphere```
 
 ***
