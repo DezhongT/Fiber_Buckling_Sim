@@ -38,9 +38,6 @@ world::world(setInput &m_inputData)
 	insertion_time = m_inputData.GetScalarOpt("insertion-time");
 	wait_time = m_inputData.GetScalarOpt("wait-time");
 	total_rods = m_inputData.GetIntOpt("total-rods");
-	boundary_iter = m_inputData.GetIntOpt("boundary-iter");
-	external_flow = m_inputData.GetScalarOpt("external-flow");
-	flow_period = m_inputData.GetScalarOpt("flow-period");
 	radiusofSphere = m_inputData.GetScalarOpt("radiusofSphere");
 
 	filename = m_inputData.GetStringOpt("filename");
@@ -224,7 +221,7 @@ void world::rodGeometry(int curr)
 	 vertices = MatrixXd(numVertices, 3);
 	 vertices0 = MatrixXd(numVertices, 3);
 
-	 double offset = 0.01;
+	 double offset = RodLength/insertion_time * wait_time;
 	 if (curr == 0) offset = 0;
 
 	 double delta_l = RodLength/(numVertices-1);

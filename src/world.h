@@ -77,10 +77,6 @@ private:
 	double data_period;
 	double insertion_time;
 	double wait_time;
-	int boundary_iter;
-	double external_flow;
-	double flow_period;
-
 
 
 	// Viscous drag coefficients
