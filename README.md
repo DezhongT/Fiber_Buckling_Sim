@@ -2,12 +2,6 @@
 
 The numerical framework for simulating the entanglement of elastic rods in the viscous fluid (under low Reynolds number) for resembling gastric trichobezoar. Rods are injected one by one with a constant injection speed into a tank (assumed to be a sphere) filled with viscous fluid. Uses [Discrete Elastic Rod (DER)](http://www.cs.columbia.edu/cg/pdfs/143-rods.pdf) framework and incorporates contact from [this article](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1467-8659.2008.01147.x)
 
-<p align="center">
-<img src="Figures/examples.png" alt>
-<br>
-<em> Figure 1. Simulation examples for the entanglement of elastic rods under low Reynolds number. </em>
-</p>
-
 ***
 
 ## How to Use
